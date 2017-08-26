@@ -1,0 +1,4 @@
+Flask>=0.12
+twilio>=6.5.2
+urllib3
+zappa

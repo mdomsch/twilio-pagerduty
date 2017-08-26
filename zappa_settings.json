@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "app_function": "run.app",
+        "aws_region": "us-west-2",
+        "profile_name": "dev",
+        "s3_bucket": "my-twilio-pagerduty-bucket",
+	"project_name": "twilio-pagerduty",
+	"environment_variables": {
+	    "FLASK_SECRET_KEY": "secret",
+	    "APP1_PAGERDUTY_SERVICE_KEY": "integration-service-key-1",
+	    "APP2_PAGERDUTY_SERVICE_KEY": "integration-service-key-2"
+	}
+    }
+}
